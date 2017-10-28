@@ -3,7 +3,7 @@ def oxford_comma(array)
   array.each {|item|
     if array.size == 1
       string = item
-    elsif array.size == 2 && item.index == 0
+    elsif array.size == 2 && array.index(item) == 0
       string << item
     elsif item == array.last
       string << "and #{item}"
