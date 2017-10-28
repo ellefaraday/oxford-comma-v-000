@@ -14,6 +14,6 @@ def oxford_comma(array)
   string
 end
 
-array = ['sloth', 'wrath']
+array = ['sloth', 'wrath', 'envy', 'lust']
 
-puts oxford_comma(array)
+oxford_comma(array)
