@@ -16,4 +16,4 @@ end
 
 array = ['sloth', 'wrath', 'envy', 'lust']
 
-oxford_comma(array)
+puts oxford_comma(array)
